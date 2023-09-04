@@ -2,7 +2,7 @@
 
 M Cube is a simple web-based tool that allows you to calculate the Mean, Mode, and Median of a dataset with grouped data (class intervals and frequencies). Whether you're a student studying statistics or someone who needs to analyze data quickly, M Cube can help you perform these calculations effortlessly.
 
-![image](https://github.com/TheNabbu/M-Cube/assets/128571614/4a8565e8-a3db-405b-8cfb-c1f89b3fe2e2)
+![image](https://github.com/TheNabbu/M-Cube/assets/128571614/81d2304d-0388-48c8-9072-abd8fa1b29dd)
 
 
 ## Features
