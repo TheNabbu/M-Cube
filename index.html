@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>M Cube - A Mean, Mode, and Median Calculator</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="side1">
+        <table id="dataTable">
+          <tr>
+            <th>Class Intervals</th>
+            <th>Frequencies</th>
+          </tr>
+          <tr>
+            <td>
+              <input type="number" placeholder="Lower Limit" /> -
+              <input type="number" placeholder="Upper Limit" />
+            </td>
+            <td><input type="number" placeholder="Frequency" /></td>
+          </tr>
+          <tr>
+            <td>
+              <input type="number" placeholder="Lower Limit" /> -
+              <input type="number" placeholder="Upper Limit" />
+            </td>
+            <td><input type="number" placeholder="Frequency" /></td>
+          </tr>
+        </table>
+
+        <button id="addRowBtn">Add Row</button>
+        <button id="removeRowBtn">Remove Row</button>
+        <button id="calc">Calculate</button>
+      </div>
+      <div class="side2">
+        <h2>Results</h2>
+        <div id="mean">Mean: </div>
+        <div id="mode">Mode: </div>
+        <div id="median">Median: </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
